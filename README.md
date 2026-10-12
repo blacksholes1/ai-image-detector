@@ -1,18 +1,34 @@
-# ai-image-detector
-So this is a cool AI image detector I made
-Step 1
-pip install pillow opencv-python numpy
-Paste that into the terminal
-Step 1.5 (optional)
-So if you don't have Python installed, you need to
-winget install Python.Python.3.14 for Windows in terminal
-brew install python3 for mac in terminal
-Then do step one so it works
-Step 2 
-Download the repo
-Step 3 
+liambthegoat / ai-image-detector / README.md
+# AI Image Detector
+
+This is a simple AI image detector I built to help determine whether an image or video looks real or AI-generated.
+
+## Setup
+
+1.5) If Python is not installed
+If you do not already have Python installed:
+
+Windows:
+
+bash
+winget install Python.Python.3.14
+macOS:
+
+bash
+brew install python3
+Then run the install command again from Step 1.
+
+Run the project
+2) Download the repo
+Clone or download the repository to your computer.
+
+3) Start the detector
+In your terminal, run:
+
+bash
 python ai_detector.py
-In terminal
-Step 5 
-Drag and drop your image or video from the file manager/finder and intoTerminal, then hit Enter
-Now it shows you if your image is real or AI
+4) Test an image or video
+Drag and drop your image or video file from your file manager/finder into the terminal and press Enter.
+
+The program will then tell you whether the file appears to be real or AI-generated.
+
