@@ -37,7 +37,15 @@ git clone https://github.com/liambthegoat/ai-image-detector.git
 cd ai-image-detector
 ```
 
-### 3) Run the detector
+### 3) Install dependencies
+
+Install the required Python packages:
+
+```bash
+pip install pillow opencv-python numpy
+```
+
+### 4) Run the detector
 
 In your terminal, run:
 
@@ -45,7 +53,7 @@ In your terminal, run:
 python ai_detector.py
 ```
 
-### 4) Test an image or video
+### 5) Test an image or video
 
 Drag and drop your image or video file from your file manager or Finder into the terminal and press Enter.
 
