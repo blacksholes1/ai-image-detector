@@ -1,34 +1,52 @@
-liambthegoat / ai-image-detector / README.md
 # AI Image Detector
 
-This is a simple AI image detector I built to help determine whether an image or video looks real or AI-generated.
+This project helps you determine whether an image or video looks real or AI-generated.
+
+## Features
+
+- Checks a local image or video file
+- Identifies whether it appears to be real or AI-generated
+- Runs from the command line
 
 ## Setup
 
-1.5) If Python is not installed
-If you do not already have Python installed:
+### 1) Install Python
 
-Windows:
+If Python is not already installed, install it first.
 
-bash
+#### Windows
+
+```bash
 winget install Python.Python.3.14
-macOS:
+```
 
-bash
+#### macOS
+
+```bash
 brew install python3
-Then run the install command again from Step 1.
+```
 
-Run the project
-2) Download the repo
+Then run the setup steps again.
+
+### 2) Download the repository
+
 Clone or download the repository to your computer.
 
-3) Start the detector
+```bash
+git clone https://github.com/liambthegoat/ai-image-detector.git
+cd ai-image-detector
+```
+
+### 3) Run the detector
+
 In your terminal, run:
 
-bash
+```bash
 python ai_detector.py
-4) Test an image or video
-Drag and drop your image or video file from your file manager/finder into the terminal and press Enter.
+```
+
+### 4) Test an image or video
+
+Drag and drop your image or video file from your file manager or Finder into the terminal and press Enter.
 
 The program will then tell you whether the file appears to be real or AI-generated.
-
