@@ -33,7 +33,7 @@ Then run the setup steps again.
 Clone or download the repository to your computer.
 
 ```bash
-git clone https://github.com/liambthegoat/ai-image-detector.git
+git clone https://github.com/blacksholes1/ai-image-detector.git
 cd ai-image-detector
 ```
 
