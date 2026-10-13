@@ -117,7 +117,7 @@ def process_file(file_path):
         for flag in meta_results["flags"]:
             print(f" ⚠️  {flag}")
     else:
-        print(" ✅ No toxic AI meta-tags found in basic binary markers.")
+        print(" No toxic AI meta-tags found in basic binary markers.")
 
     # 2. Evaluate Noise Signature
     print("\n[2/2] Analyzing Micro-Noise Matrix Consistency...")
@@ -132,20 +132,20 @@ def process_file(file_path):
     if meta_results["status"] == "AI Generated":
         print("🚨 VERDICT: HIGH RISK / CONFIRMED AI CONTENT (Hard Signatures Match)")
     elif "Suspicious" in noise_score or "Anomalous" in noise_score:
-        print("⚠️  VERDICT: SUSPICIOUS (Metadata is clean but noise patterns deviate from standard camera optics)")
+        print("VERDICT: SUSPICIOUS (Metadata is clean but noise patterns deviate from standard camera optics)")
     else:
-        print("🍏 VERDICT: PASS (No basic automated AI signatures detected)")
+        print("VERDICT: PASS (No basic automated AI signatures detected)")
     print("="*50 + "\n")
 
 def main():
     clear_screen()
     print("====================================================")
-    print("         🤖 AI IMAGE & VIDEO FORENSIC SCANNER       ")
+    print("          AI IMAGE & VIDEO FORENSIC SCANNER       ")
     print("====================================================")
     
     while True:
         try:
-            print("👇 Drag and drop your file directly into this terminal window")
+            print(" Drag and drop your file directly into this terminal window")
             print("   (Or type 'exit' to quit)")
             user_input = input("\nFile Path: ")
             
